@@ -17,7 +17,7 @@ Therefore, I used OpenCV to load a single image and imitated the whole process o
 ![image](https://user-images.githubusercontent.com/57203983/152776285-a4729fc6-2510-4c06-bc86-82dc514d786a.png)
 
 
-The input of the model needs to be a dictionary, so I created an empty one and used img_trans as the value for ‘img.’ As for ‘img_metas’, it is originally used to draw bounding box on the image from the json file. Since we don’t need to know the ground-truth when demoing, ‘image_file’, ‘bbox-score’, and ‘bbox_id’ are not important. I assumed ‘rotation’ will rotate the bounding box, so I just used the default value. Hence, center and scale are the only two parameters that will affect the demo result.
+The input of the model needs to be a dictionary, so I created an empty one and used img_trans as the value for ‘img.’ As for ‘img_metas’, it is originally used to draw bounding box on the image from the json file. Since we don’t need to know the ground-truth when inferencing, ‘image_file’, ‘bbox-score’, and ‘bbox_id’ are not important. I assumed ‘rotation’ will rotate the bounding box, so I just used the default value. Hence, center and scale are the only two parameters that will affect the inference result.
 
 ![image](https://user-images.githubusercontent.com/57203983/152776314-8d562952-19f0-43d3-8e82-39a246b9d5b7.png)
 
