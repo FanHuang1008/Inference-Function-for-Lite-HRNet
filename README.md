@@ -1,4 +1,4 @@
-# Demo-Function-for-Lite-HRNet
+# Inference-Function-for-Lite-HRNet
 For the requirements, installation, training, and testing of Lite-HRNet, please visit the official GitHub page (https://github.com/HRNet/Lite-HRNet). If you fail to install mmcv-full, install mmcv and mmpose instead. 
 
 
